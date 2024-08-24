@@ -13,11 +13,21 @@ const projects = {
             { name: "Project 4", link: "https://drive.google.com/file/d/EXAMPLE4/view" }
         ]
     },
+    "EEE": {
+        "2024": [
+            { name: "Project 5", link: "https://drive.google.com/file/d/EXAMPLE4/view" }
+        ]
+    },
     "ME": {
         "2022": [
-            { name: "Project 5", link: "https://drive.google.com/file/d/EXAMPLE5/view" }
+            { name: "Project 6", link: "https://drive.google.com/file/d/EXAMPLE5/view" }
         ]
-    }
+    },
+    "CE": {
+        "2024": [
+            { name: "Project 7", link: "https://drive.google.com/file/d/EXAMPLE4/view" }
+        ]
+    },
 };
 
 const departmentSelect = document.getElementById('departmentSelect');
