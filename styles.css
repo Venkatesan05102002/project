@@ -11,17 +11,44 @@ body {
     background-size: cover;
 }
 
+
 .container {
-    background-color: rgb(50, 50, 214);
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.00);
+    /* Semi-transparent white */
+    padding: 30px;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    animation: fadeIn 0.6s ease-out;
+    transition: box-shadow 0.3s ease;
     backdrop-filter: blur(10px);
+    /* Apply blur effect */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.00);
+    /* Fallback for browsers that don't support backdrop-filter */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    animation: fadeIn 0.6s ease-out;
+    transition: box-shadow 0.3s ease;
+    backdrop-filter: blur(10px);
+    /* Modern browsers */
+    -webkit-backdrop-filter: blur(10px);
+    /* Safari */
 }
 
 h1 {
     text-align: center;
+    color: blue;
 }
+
 
 select {
     width: 100%;
