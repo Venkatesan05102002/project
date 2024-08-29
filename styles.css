@@ -13,7 +13,7 @@ body {
 
 
 .container {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.01);
     /* Semi-transparent white */
     padding: 30px;
     border-radius: 8px;
@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.-2);
+    background-color: rgba(255, 255, 255, 0.01);
     /* Fallback for browsers that don't support backdrop-filter */
     padding: 30px;
     border-radius: 8px;
