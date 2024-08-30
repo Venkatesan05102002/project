@@ -6,9 +6,18 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url("g20.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* background */
+
+.backImage {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
 }
 
 
