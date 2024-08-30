@@ -17,40 +17,17 @@ body {
     width: 100%;
     position: absolute;
     z-index: -1;
-    top: 0px;
 }
 
 
 .container {
-    background-color: rgba(255, 255, 255, 0.01);
     /* Semi-transparent white */
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.01);
     width: 90%;
     max-width: 400px;
     text-align: center;
-    animation: fadeIn 0.6s ease-out;
-    transition: box-shadow 0.3s ease;
-    backdrop-filter: blur(10px);
     /* Apply blur effect */
-}
-
-.container {
-    background-color: rgba(255, 255, 255, 0.01);
-    /* Fallback for browsers that don't support backdrop-filter */
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 400px;
-    text-align: center;
-    animation: fadeIn 0.6s ease-out;
-    transition: box-shadow 0.3s ease;
-    backdrop-filter: blur(10px);
-    /* Modern browsers */
-    -webkit-backdrop-filter: blur(10px);
-    /* Safari */
 }
 
 h1 {
